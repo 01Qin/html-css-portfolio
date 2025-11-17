@@ -1,0 +1,8 @@
+:root {
+    --background-color: #D494AF;
+}
+body {
+    background: var(--background-color);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    font-size: medium;
+}
