@@ -5,7 +5,14 @@ body {
     margin: 20px;
     color: #333;
 }
-
+header {
+    font-size: large;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    text-align: center;
+    position: relative;
+    padding-bottom: 2em;
+}
 ul.todo-list {
     list-style: none;
     padding: 0;
@@ -31,6 +38,7 @@ ul.todo-list li:last-child {
 label {
     font-size: 16px;
     cursor: pointer;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Lucida Sans", "Noto Sans", sans-serif;
 }
 
 input[type="checkbox"] {
