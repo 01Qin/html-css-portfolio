@@ -5,6 +5,9 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
     color: #0a0a23;
 }
+* {
+    box-sizing: border-box;
+}
 /* will select any span element whose class includes sr-only. */
 span[class~="sr-only"] {
     /* use the !important keyword to ensure these earlier properties are always applied,
@@ -87,6 +90,7 @@ table {
     width: 100%;
     margin-top: 3rem;
     position: relative;
+
 }
 table caption {
     color: #356eaf;
@@ -109,6 +113,7 @@ tbody th {
 tr[class="total"] {
     border-bottom: 4px double #0a0a23;
     font-weight: bold;
+    font-size: 1em;
 }
 tr[class="total"] th{
     text-align: left;
@@ -116,12 +121,12 @@ tr[class="total"] th{
 }
 tr.total td{
     text-align: right;
-    padding: 0 0.25rem;
+    padding: 0 2.5rem;
 }
 /* The :nth-of-type() pseudo-selector is used to target specific elements based on their order
 among siblings of the same type. */
 tr.total td:nth-of-type(3) {
-    padding-right: 0.5rem;
+    padding-right: 3rem;
 }
 tr.total:hover {
     background-color: #99c9ff;
